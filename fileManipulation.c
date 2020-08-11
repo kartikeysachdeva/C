@@ -4,6 +4,7 @@
 
 main()
 {
+	// variable names 
 	FILE *ffirst, *fsecond, *fappend; 
 	char read; 
 	char firstfile[80], secondfile[80], appendfile[80];
