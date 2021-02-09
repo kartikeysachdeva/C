@@ -1,0 +1,180 @@
+Date:26/May/2020
+----------------
+C Basics
+--------
+keyword
+-------
+- A keyword is a predefined word whose meaning is known to the compiler
+  directly
+- C language has 32 keywords
+- All keywords are small case letters
+
+	eg:
+	    int,float,char,if,else,switch,do,while,for,break,continue,
+	    struct,union,const,...32 keywords
+
+Variable
+--------
+A variable is an identifier which allocates some memory space
+
+Rules for Identifiers (variable name / function name)
+---------------------
+- Can contain A-Z, a-z, 0-9, _ (underscore)
+- Cannot be a keyword
+- Cannot start with a digit (0-9)
+
+eg:
+
+Valid Identifiers
+-----------------
+rollno
+empName
+custNo123
+emp_salary
+
+Invalid Identifiers
+-------------------
+stud Name	(space is not allowed)
+123itemno	(cannot start with a digit)
+empNo#		(# is not allowed)
+while		(cannot be a keyword)
+
+
+Datatype
+--------
+Type of data the variable holds is called as data type
+
+	Refer diagram Data Types.png
+
+
+Declaration of variable
+-----------------------
+In order to allocate memory space for variable we need to declare the 
+variable
+
+syntax (Rules for language)
+------
+datatype var1,var2,...varn;
+
+eg:
+int a,b;
+char c;
+float f;
+
+Note
+----
+- In C language every statement should end with a semicolon(;)
+- C is case sensitive programming language means there is a difference
+  between upper case and lower case letters
+
+	eg:
+		int a;
+		int A;
+
+		a and A are different
+
+Standard output function
+------------------------
+printf() function is the standard output function which is used to
+display messages or the value of variables or both onto the screen/monitor
+
+syntax (message)
+------
+printf("message");
+
+eg:
+printf("Welcome");
+
+syntax (to display value of variables)
+------
+printf("<<format specifiers>>",var1,var2,..varn);
+
+Format Specifiers
+-----------------
+int => %d
+float => %f
+char => %c
+string => %s 
+
+A string is a collection of characters
+eg:
+	"xyz", "xyz123", "abc"
+
+eg:
+int a=10;
+float b = 3.14;
+char c = 'p';
+
+printf("%d %f %c",a,b,c);
+
+
+output
+------
+10 3.14 p
+
+
+printf("a=%d, b=%f, c=%c",a,b,c);
+output
+------
+a=10, b=3.14, c=p
+
+
+IDE
+---
+- IDE stands for Integrated Development Environment
+- IDEs are used to develop the applications easily and rapidly
+
+C/C++ IDEs
+----------
+- Developer C++ (Dev C++)
+- Turbo C++
+- Eclipse
+
+
+Download Dev C++ IDE
+--------------------
+Google : dev c++ download
+url : https://sourceforge.net/projects/orwelldevcpp/
+
+Welcome.c
+---------
+//to display Welcome message onto the screen
+#include <stdio.h> 
+main()
+{
+	printf("Welcome");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

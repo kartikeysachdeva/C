@@ -1,0 +1,86 @@
+Date:17/June/2020
+-----------------
+Recursion
+---------
+Calling the same function within itself is called as recursion
+
+eg:
+	main()
+	{
+	    ...
+	    main();
+	    ...
+	}
+
+WAP to find the factorial of a given number using recursion
+	Refer program FactRecursion.c
+
+
+Storage Classes
+---------------
+Storage classes are used to give the scope(avaiable) and storage of the variable
+
+Types
+-----
+- Automatic / Local Variables
+	- auto keyword (optional)
+	- variables are declared within the function
+	- scope of the variables are within the function only
+
+		Refer program LocalVar.c
+
+- External / Global Variables
+	- extern keyword (optional)
+	- variables are declared outside the functions
+	- scope of the variables are to all functions of the program
+
+		Refer program GlobalVar.c
+
+- static variables
+	- static keyword
+	- default value is zero
+	- retains the value of variable present in memory
+
+		Refer program StaticVar.c
+
+- register variables
+	- register keyword
+	- variables are stored in register memory (a part of RAM)
+	- performance of register variables are more than local variables
+	- register variables are used in system programming
+
+		eg:
+			register int n;//n variable is created in register memory
+	
+
+Strings - 1
+Structures and Unions - 1
+Pointers - 1
+Files - 1
+DMM and Preprocessor - 1
+
+-------------------
+Linked Lists - 1
+Trees - 1
+Sorting and Searching - 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

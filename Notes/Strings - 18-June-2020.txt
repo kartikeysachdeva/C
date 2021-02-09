@@ -1,0 +1,167 @@
+Date:18/June/2020
+-----------------
+WAP to display the following pattern
+
+		*
+	      *   *
+	    *   *   *
+          *   *   *   *
+	*   *   *   *   *
+
+
+	Refer program star.c
+
+Strings
+-------
+A String in C language is a collection of characters/char array
+
+	eg:
+		char name[10];//name is a String 
+
+		scanf("%s",name);//Hello
+		printf("%s",name);//Hello
+
+	Refer diagram string.png
+
+String Functions
+----------------
+getchar()
+---------
+used to read a char from keyboard into a char variable
+	eg:
+		char p;
+		p = getchar();//scanf("%c",&p);
+
+putchar()
+---------
+used to display a char onto the screen
+	eg:
+		char p = 'x';
+		putchar(p);//x - printf("%c",p);
+
+WAP to count number of vowels, consonants and words in a given line of text
+	Refer program CountString.c
+
+String Handling Functions
+-------------------------
+strlen()
+--------
+- string length
+- used to return the number of characters in the given string
+	eg:
+		char s[10];
+		scanf("%s",s);//Welcome
+		l = strlen(s);
+		printf("Length = %d",l);//Length = 7
+
+strcpy()
+--------
+- string copy
+- used to copy one string into another string
+	eg:
+		char s1[10];
+		char s2[10];
+		s2 = s1;//error
+		scanf("%s",s1);//Hello
+		strcpy(s2,s1);//s2 = s1
+		printf("%s",s2);//Hello
+
+
+strcat()
+--------
+- string concatenation (join)
+- used to join one string with another string
+	eg:
+		char s1[10];
+		char s2[10];
+		scanf("%s",s1);//Hello
+		scanf("%s",s2);//World
+		strcat(s1,s2);//s1 = s1 + s2
+		printf("%s",s1);//HelloWorld
+
+strcmp()
+--------
+- string compare
+- used to compare one string with another string
+
+	eg:
+		char s1[10];
+		char s2[10];
+		scanf("%s",s1);//abc
+		scanf("%s",s2);//xyz
+
+		if ((strcmp(s1,s2)) < 0)
+		    printf("%s is less than %s",s1,s2);
+		else
+		    if ((strcmp(s1,s2)) > 0)
+			printf("%s is greater than %s",s1,s2);	
+		    else
+			printf("%s is equal to %s",s1,s2);
+
+		output
+		------
+		abc is less than xyz
+
+
+		s1 < s2 => <0
+		s1 > s2 => >0
+		s1 = s2 => =0
+
+WAP to accept rollno, name, and marks in three subjects. Find total and average.
+Calcuate result as follows
+	if all 3 marks >= 40 then the result is "pass" else the result is "fail"
+
+Calculate division as follows
+	if result is "pass"
+		and
+			if (avg >= 70) then division is "Distintion"
+			if (avg >= 60 and < 70) then division is "First"
+			if (avg >= 50 and < 60) then division is "Second"
+			if (avg >= 40 and < 50) then division is "Third"
+	else
+		if result is "Fail"
+			then division is "Nil"
+
+	Refer program StudentResult.c
+
+Assignment - String
+-------------------
+1. WAP to check whether the given String is palindrome or not
+	eg:
+		madam, liril
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

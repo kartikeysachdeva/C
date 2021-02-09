@@ -1,0 +1,55 @@
+Date:04/July/2020
+-----------------
+Linked Lists
+------------
+A Linked list is a collection of elements stored in non-continuous memory locations in the form 
+of nodes 
+
+Node => Divided into two parts : element value and link/next to the next node
+
+	Refer diagram Linked List.png
+
+Arrays vs LinkedList
+--------------------
+- In Arrays the elements are stored in continuous memory locations where as in LinkedList the
+  elements are stored in non-continuous memory locations in the form of nodes
+
+- Arrays are fixed size where as Linked Lists are variable size (not fixed)
+
+- The cost of insert and delete operations are more in Arrays where as the cost of these operations
+  are less in LinkedList
+
+- Arrays occupies less memory than Linked Lists
+
+WAP to do the following Linked List operations
+
+	1. Create
+	2. Display
+	3. Insert Begin
+	4. Insert Middle
+	5. Delete Begin
+	6. Delete Middle
+	7. Delete End
+	8. Count
+	9. Exit
+
+	The menu should display repeatly until the user chooses Exit
+
+	Refer program LinkedList.c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,83 @@
+Date:10/June/2020
+-----------------
+Arrays
+------
+An array is a collection of elements of similar data type and stored in 
+continuous memory locations
+
+Types of Arrays
+---------------
+- One Dimensional Arrays
+- Two Dimensional Arrays
+
+One Dimensional Arrays
+-----------------------
+Declaration
+-----------
+datatype arrayname[size];
+
+eg:
+int n[5];
+float f[10];
+char c[10];
+
+	Refer diagram Arrays.png
+
+WAP to create an int array of size 5 and display the elements of the array
+	Refer program ArrayCreate.c
+
+
+WAP to find the sum of given array elements
+	Refer program ArraySum.c
+
+
+WAP to search an element in the given array
+	Refer program ArraySearch.c
+
+
+Assignment - Arrays 
+-------------------
+1. WAP to find the frequency of the given element in the given array
+	eg:
+		int n[10] = {2,5,7,2,5,8,5,9,1,6};
+
+		key = 2
+		Frequency of 2 is 2
+		----------------------
+		key = 5
+		Frequency of 5 is 3
+		---------------------
+		key = 3
+		Frequency of 3 is 0
+
+2. WAP to find biggest, second biggest, smallest and second smallest in the given array
+	eg:
+		int n[5] = {5,8,6,4,7};
+
+		output
+		------
+		Big = 8
+		Second Big = 7
+		Small = 4
+		Second Small = 5
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

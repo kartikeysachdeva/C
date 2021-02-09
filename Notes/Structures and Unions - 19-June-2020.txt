@@ -1,0 +1,70 @@
+Date:19/June/2020
+-----------------
+Strutures and Unions
+--------------------
+These are user defined data types which are used to collect the related elements
+of different data type
+
+creating a structure
+--------------------
+struct employee
+{
+   int eno;
+   char ename[10];
+   float salary;
+};
+
+eno = 111;//error
+
+The members of the structure should be accessed using a structure variable with dot(.)
+operator
+
+creating structure variable
+--------------------------
+struct employee e;//e is a structure variable of type struct employee
+e.eno = 111;
+strcpy(e.ename,"Raj");
+e.salary = 8000.0;
+
+WAP to create a structure "student" with the fields rollno, name, mark1,mark2,mark3,
+total and avg. Calculate total and average. Display rollno,name,total and avg
+
+	Refer program structstudent.c
+
+Creating Unions
+---------------
+union employee
+{
+   int eno;
+   char ename[10];
+   float salary;
+};
+union employee e;
+e.eno = 111;
+strcpy(e.ename,"Raj");
+e.salary = 8000.0;
+
+	Refer diagram structure vs union.png
+
+Assignment
+-----------
+create a structure "Item" with the fields itemno, itemname, rate, qty and price.
+Calculate price (rate*qty). 
+Create a function "displayItem()" which takes struct Item as an argument and displays
+itemno, itemname and price
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

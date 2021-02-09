@@ -1,0 +1,65 @@
+Date:22/May/2020
+----------------
+C Introduction
+--------------
+C is a structured programming language developed by Dennis Ritchie at AT&T, Bell Labs,
+USA in 1972
+
+In Structured programming languages we divide the given task into pieces called as functions
+A function is a set of statements used to do a specific task
+
+Structure of C Language Program
+-------------------------------
+DOCUMENTATION SECTION
+	- it is used to document a program using comments and ignored by compiler
+		Types of comments
+		-----------------
+		// => single line comment
+			eg:
+				//to find area of a rectangle
+
+		/* ... */ => multiline comment
+	
+			eg:
+				/*
+					to find total and
+					average marks of a student
+				 */
+
+DEFINITION SECTION
+	- used to define the constants
+	eg:
+		#define PI 3.14
+
+LINKAGE SECTION
+	- used to link to external header files (.h files)
+	#include <stdio.h> //standard input output header files / libraries (existing code)
+	
+GLOBAL DECLARATION SECTION
+	- the variables are used in all functions of the program
+
+main() => entry point to run a C program
+{
+    Declaration Part => used to allocate memory space for variables
+    Executable Part  => read input, display , process
+}
+SUB PROGRAM SECTION
+function-1()
+function-2()
+...
+...
+function-n()
+
+
+MON to FRI @5PM - 6PM (1 hour)
+
+
+
+
+
+
+
+
+
+
+

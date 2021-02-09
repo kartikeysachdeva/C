@@ -1,0 +1,238 @@
+Date:01/June/2020
+-----------------
+Control Statements
+------------------
+These statements are used to control the flow of execution of programs
+
+	Types
+	-----
+	- if statement / if .. else statement
+	- switch statement
+	- while loop
+	- do..while loop
+	- for loop	
+	- break and continue
+
+if statement / if .. else statement
+-----------------------------------
+It is used to execute the set of statements when the condition is true. If the condition is
+false then it will execute the set of statements present in else part
+
+syntax
+------
+if (condition)
+{
+  statement-1;
+  statement-2;
+  ...
+  statement-n;
+}
+else
+{
+  statement-1;
+  statement-2;
+  ...  
+  statement-n;  
+}
+
+Points on if statement
+----------------------
+- For if, else is optional
+- For else, if is mandatory (compulsory)
+- If {} are not used then it considers only one statement means for statement using {} is optional
+
+	eg:
+		int n1 = 10;
+		int n2 = 5;
+		if (n1 > n2)
+		   printf("Big = %d",n1);
+		else
+		   printf("Big = %d",n2);
+
+		output
+		------
+		Big = 10
+
+
+	eg:
+		int n1 = 10;
+		int n2 = 15;
+		if (n1 > n2)
+		   printf("Big = %d",n1);
+		else
+		   printf("Big = %d",n2);
+
+		output
+		------
+		Big = 15
+
+1.
+	int n1 = 10;
+	int n2 = 5;
+	if (n1 > n2)
+	   printf("Big = %d",n1);
+	   printf("Big = %d",n2);
+
+	output
+	-------
+	Big = 10
+	Big = 5
+
+2.
+	int n1 = 10;
+	int n2 = 5;
+	if (n1 > n2);
+	   printf("Big = %d",n1);
+	   printf("Big = %d",n2);
+
+	output
+	------
+	Big = 10
+	Big = 5
+	
+
+3.
+	int n1 = 10;
+	int n2 = 5;
+	if (n1 > n2);
+	   printf("Big = %d",n1);
+	else
+	   printf("Big = %d",n2);
+
+	output
+	------
+	Error - else without if
+
+
+4.
+	int n1 = 10;
+	int n2 = 5;
+	if (n1 > n2)
+	    printf("Big = %d",n1);
+	    printf("xx");
+	else
+	    printf("Big = %d",n2);
+
+	output
+	------
+	Error - else without if
+
+
+5.
+	int n1 = 10;
+	int n2 = 5;
+	if (n1 > n2)
+	   printf("Big = %d",n1);;
+	else
+	   printf("Big = %d",n2);
+
+	output
+	------
+	Error - else without if
+
+
+WAP to check whether the given number is Even or Odd
+	Refer program EvenOdd.c
+
+	  
+Nested if
+---------
+if within if is called as nested if
+
+syntax
+------
+if (condition1)
+{
+   statements;
+}
+else
+   if (condition2)
+   {
+	statements;
+   }
+   else
+	if (condition3)
+	{
+	   statements;
+	}
+	else
+	{
+	   statements;
+	}
+
+WAP to check whether the given number is Positive, Negative or Zero
+	Refer program CheckNumber.c
+
+
+WAP to find the biggest of given three numbers
+	n1, n2, n3
+
+	Refer program BigThree.c
+
+Assignment - 2
+--------------
+1. WAP to check whether the given age is major(>=18) or minor.
+	Note: if the given age is <0 then display "Invalid Age"
+
+2. WAP to check whether the given year is leap year or not
+	
+3. WAP to find biggest of given three numbers using conditional operator (?)
+
+4. WAP to accept item number, item name, rate and quantity. Find price (rate * qty).
+	Calculate discount as follows
+
+	if (price >= 1000 and < 2000)
+	    dis is 10% on price
+	if (price >= 2000 and < 3000)
+	    dis is 15% on price
+	if (price >= 3000 and < 5000)
+	    dis is 20% on price
+	if (price >= 5000)
+	    dis is 25% on price
+
+	Find netprice (price - dis)
+	Display item number, item name, price, discount and net price
+	
+	Program
+	-------
+	if (price >= 1000 && price < 2000)
+	    dis = 0.10 * price;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,77 @@
+Date:20/May/2020
+----------------
+C Language
+----------
+- Computer Fundamentals
+- C Introduction
+- Structure of C Language Program
+- C Basics
+	- keywords, variables, data types, declaration of variables
+- Standard output function => printf()
+- Standard input function  => scanf()
+- Operators
+- Control Statements
+	- if statement / if..else statement
+	- switch statement
+	- while loop
+	- do..while loop
+	- for loop
+	- break and continue
+
+- Arrays
+	- One Dimensional Arrays
+	- Multi Dimensional Arrays
+
+- Functions
+	- how to create user defined functions
+
+- Strings
+	- Collection of characters is a String
+
+	'a', 'p', '9' => characters - are enclosed in single quotes (' ')
+	"xyz" => string - are enclosed in double quotes (" ")
+	
+	- String handling functions
+		- strlen(), strcpy(), strcat(), strcmp()
+
+- Structures and Unions
+	- used to collect different data type of elements
+
+
+- Pointers
+	
+- Files
+
+- Dynamic Memory Management
+
+- Preprocessors
+
+Duration : 1 Month (25 hours)
+Time : MON to FRI @5PM (IST)
+
+
+My Email id : rajtrainingshyd@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

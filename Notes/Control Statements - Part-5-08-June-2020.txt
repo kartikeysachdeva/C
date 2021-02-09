@@ -1,0 +1,120 @@
+Date:08/June/2020
+-----------------
+do..while loop
+--------------
+syntax
+------
+do
+{
+   st-1;
+   st-2;
+   ...
+   st-n;
+}while (condition);
+
+eg:
+1 2 3 .. 9 10
+
+int i=1;
+do
+{
+   printf("%d",i);
+   i++;
+}while(i <= 10);
+
+Difference between while loop and do..while loop
+------------------------------------------------
+- In while loop the condition is checked before the statements where as in do..while loop
+  the condition is checked after the statements
+- The minimum number of execution of statements in while loop is zero where as the
+  minimum number of execution of statements in do..while is one
+
+WAP to accept the current balance and display the following options/menu
+
+	1.Deposit
+	2.Withdraw
+	3.Display Balance
+	4.Exit
+
+	The menu should display repeatedly until the user chooses Exit
+
+	Refer program Bank.c
+
+Note
+----
+If the value of condition is known in the loop statements then it is suggested to 
+use do..while loop
+
+for loop
+--------
+syntax
+------
+for(initialization;condition;expression)
+{
+   st-1;
+   st-2;
+   ...
+   st-n;
+}
+
+Note: If no {} then it considers only one statement
+
+eg:
+1 2 3 ... 9 10
+
+	for(i=1;i<=10;i++)
+	 printf("%d",i);
+
+eg:
+	for(i=1;i<=10;i++);
+	   printf("%d",i);
+
+	output
+	------
+	11
+
+WAP to find the factorial of a given number
+	5! = 5 * 4 * 3 * 2 * 1 = 120
+
+	f = 1
+
+	Refer program Factorial.c
+
+WAP to display multiplication table for a given number
+	n = 5
+
+	5 * 1 = 5
+	5 * 2 = 10
+	...
+	5 * 9 = 45
+	5 * 10 =50
+
+	Refer program MTable.c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

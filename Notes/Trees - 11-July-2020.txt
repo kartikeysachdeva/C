@@ -1,0 +1,70 @@
+Date:11/July/2020
+-----------------
+Trees
+-----
+A tree is a non-linear data structure consisting of nodes
+
+	Refer diagram Trees.png
+
+Root Node : Root node is the starting node of a tree which is the base for each and every other nodes
+ 		of the tree
+
+Siblings : The nodes which have the same parent are called as siblings
+
+Leaf Nodes : The nodes which are not having any children
+
+
+Order of a node : The number of children present to a node 
+
+Height of a tree : The maximum possible length from the root node to the leaf node
+
+Binary Tree
+-----------
+The trees is which every node contains atmost two childern
+
+	Refer diagram Binary Tree.png
+
+Tree Traversals
+---------------
+Accessing / visiting every element of tree is called traversal
+
+Binary Search Tree
+-----------------
+If the element is < root node => connect left
+If the element is > root node => connect right
+
+Types
+-----
+- preorder traversal
+	- visit the root node
+	- visit the left node
+	- visit the right node
+
+- inorder traversal
+	- visit the left node
+	- visit the root node
+	- visit the right node
+
+- postorder traversal
+	- visit the left node
+	- visit the right node
+	- visit the root node
+
+
+	Refer diagram Tree Traversal.png
+
+
+- searching
+- sorting
+- matrix multiplication
+
+
+
+
+
+
+
+
+
+
+

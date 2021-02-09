@@ -1,0 +1,106 @@
+Date:03/June/2020
+-----------------
+//Biggest of three numbers using conditional operator (?)
+main()
+{
+   int n1,n2,n3,big;
+   printf("Enter three numbers ");
+   scanf("%d%d%d",&n1,&n2,&n3);
+   big = (n1 > n2 && n1 > n3) ? n1 : (n2 > n3) ? n2 : n3;
+   printf("Big = %d",big);
+}
+
+
+Loops
+-----
+Loops are used to execute the set of statements repeatedly when the condition is true.
+
+	Types of Loops
+	--------------
+	- while loop
+	- do..while loop
+	- for loop
+
+while loop
+----------
+syntax
+------
+while (condition)
+{
+   st-1;
+   st-2;
+   ...
+   st-n;
+}
+
+Note: If no {} then it considers only one statement
+
+eg:
+1 2 3 ... 9 10
+
+int i=1;
+while (i <= 10)
+{
+   printf("%d",i);
+   i++;
+}
+
+WAP to display Even numbers from 1 to 100
+
+   output
+   ------
+   2 4 6 8 10 ... 98 100
+
+	Refer program Even.c
+
+
+WAP to find sum of given 10 numbers
+
+	5
+	8
+       ---
+       13
+	6
+      ---
+       19
+	4
+      ---
+       23
+	7
+      ---
+       30
+      ---
+	int sum=0;
+	sum = sum + n;
+
+	Refer program SumTen.c
+
+Assignment-4
+-------------
+1. WAP to display the following output
+
+	2, 4, 6, 8, 10
+
+2. WAP to find sum of even numbers and sum of odd numbers from 1 to 100
+	sumeven=0, sumodd=0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

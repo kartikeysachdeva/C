@@ -1,0 +1,77 @@
+Date:11/June/2020
+-----------------
+Two Dimensional Arrays
+----------------------
+It is used to collect the elements in the form of rows and columns
+
+Declaration
+-----------
+syntax
+------
+datatype array-name[row-size][column-size];
+
+eg:
+	int n[3][3];
+
+	Refer diagram TwoDim.png
+
+
+WAP to create a 3x3 matrix and display the elements in matrix form
+	Refer program TwoDim.c
+
+WAP to find sum of prinicipal diagonal elements of given 3x3 matrix
+	PrincipalSum.c
+
+WAP to find sum of given two 3x3 matrices
+	Refer MatrixSum.c
+
+    1 2 3      1 2 3	 2 4 6
+    4 5 6  +   4 5 6  =  8 10 12
+    7 8 9      7 8 9     14 16 18
+
+      a          b          s
+
+
+	for(i=0;i<3;i++)
+	for(j=0;j<3;j++)
+  	   s[i][j] = a[i][j]+b[i][j];
+
+Assignment - Two Dim
+--------------------
+1. WAP to find the transpose of a given matrix
+
+	1 2 3
+	4 5 6
+	7 8 9
+
+	Transpose
+	---------
+	1 4 7
+	2 5 8
+	3 6 9
+
+2. WAP to find the product of given two 3x3 matrices (Google)
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

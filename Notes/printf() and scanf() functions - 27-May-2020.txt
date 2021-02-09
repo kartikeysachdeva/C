@@ -1,0 +1,78 @@
+Date: 27/May/2020
+-----------------
+Write a program (WAP) to find sum of two numbers
+	Refer program sum.c
+
+Standard Input Function
+-----------------------
+scanf() function is the standard input function which is used to read values
+into the variables from keyboard during program execution (runtime)
+
+syntax
+------
+scanf("<format specifiers>",&var1,&var2,...&varn);
+
+Format Specifiers
+-----------------
+int => %d
+float => %f
+char => %c
+string => %s
+
+	& => address of operator => used to return the address of the variable
+
+eg:
+	int a;
+	float b;
+	char c;
+
+	scanf("%d%f%c",&a,&b,&c);
+
+Write a program (WAP) to find sum of two numbers using scanf()
+	Refer program sum1.c
+
+
+WAP to find the area of a rectangle
+	Refer program Rectangle.c
+
+WAP to accept rollno, name and marks in three subjects.Find total and average.
+Display rollno, name, total and average.
+
+	Refer program student.c
+
+\n => new line / break the line
+
+Assignment - 1
+--------------
+1. WAP to find product of given three numbers
+
+2. WAP to find area of a circle
+	float pi = 3.14;
+	area = pi * radius * radius;
+
+3. WAP to accect item number, item name, rate and quantity. Find price (rate * qty).
+   Display item number, item name and price
+
+How to submit the assignments?
+
+Send the source code files (eg: circle.c) to "rajtrainingshyd@gmail.com"
+
+Subject : Assignment - 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

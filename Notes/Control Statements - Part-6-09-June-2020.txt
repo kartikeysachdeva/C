@@ -1,0 +1,131 @@
+Date:09/June/2020
+-----------------
+WAP to check whether the given number is prime or not
+	Refer program Prime.c
+
+
+WAP to display prime numbers from 2 to 100
+	Refer program DisplayPrime.c
+
+
+break and continue
+------------------
+- break is used to come out of loop
+- continue is used to continue the loop
+
+WAP to accept the numbers and find the sum of these numbers. To stop accepting
+the numbers enter zero.
+
+	Refer program BreakEx.c
+
+
+WAP to display the following output
+
+	1 2 3 4 6 7 8 9 10
+
+	Refer program ContinueEx.c
+
+for(;;) {} //infinite for loop
+
+while (1) {} //infinite while loop
+
+Pattern Programs
+----------------
+
+WAP to display the following output
+
+	1
+	1 2
+	1 2 3
+	1 2 3 4 
+	1 2 3 4 5
+
+	Refer program Pattern1.c
+
+WAP to display the following output
+
+	1 
+	2 2
+	3 3 3
+	4 4 4 4
+	5 5 5 5 5
+
+	Refer program Pattern2.c
+
+WAP to display the following output
+
+	*
+	* *
+	* * *
+	* * * *
+	* * * * *
+
+	Refer program Pattern3.c
+
+
+Google : pattern programs in C 
+
+Assignment - 6
+---------------
+1. WAP to find sum of prime numbers from 2 to 100
+
+2. WAP to display the following output
+	
+	--------------------
+	 Number   Factorial
+	--------------------
+	   1          1
+	   2          2
+	   3          6
+	   4         24
+	   5        120
+	--------------------
+	    Sum  =  153
+	---------------------
+
+3. WAP to display multiplication tables from 1 to 10
+
+4. WAP to find the product of two numbers without using "*"
+
+5. WAP to display the following patterns
+
+	a)
+		1
+		2 3
+		4 5 6
+		7 8 9 10
+
+	b)
+		*
+		* *
+		* * *
+		* * * *
+		* * * * *
+		* * * *
+		* * *
+		* *
+		*
+
+	c)
+	           *
+ 		*     *
+	      *    *    *
+	   *   *     *    *
+	*    *   *     *    * 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

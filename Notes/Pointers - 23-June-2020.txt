@@ -1,0 +1,134 @@
+Date:23/June/2020
+-----------------
+Pointers
+--------
+A pointer is a variable which contains the address of another variable
+
+eg:
+	int n = 10;
+	int *p = &n;//address of n variable
+
+p is a pointer which contains the address of n variable
+
+& operator
+---------
+used to give the address of the given variable
+
+pointers are used to increase the performance of application
+
+* (indirection operator)
+------------------------
+used to access the value of variable where pointer is pointing
+
+*p => n variable
+
+	int y = *p;
+	printf("y = %d",y);//y = 10
+
+	eg:
+		*p = *p + 10;
+		printf("n = %d",n);//n = 20
+
+	Refer program ptr1.c
+
+-----------------------------
+int n = 10;
+int *p = &n;
+
+p is a pointer pointing to int data type of variable
+
+float f = 3.14;
+float *q = &f;
+
+q is a pointer pointing to float data type of variable
+
+Pointers and Arrays
+-------------------
+	Refer diagram Pointers and Arrays.png
+
+	Refer program ptr2.c
+
+Pointers and Functions
+----------------------
+call-by-value
+-------------
+calling a function by passing values as an argument to the function
+
+	Refer program ptr3.c
+
+call-by-reference
+------------------
+calling a function by passing addresses as an argument to the function
+
+	Refer program ptr4.c
+
+swaping/interchange
+-------------------
+int n1=10;
+int n2=20;
+
+t = n1;
+n1 = n2;
+n2 = t;
+
+Pointers and Structures
+-----------------------
+struct employee
+{
+   int eno;
+   char ename[10];
+   float salary;
+};
+
+struct employee e;
+e.eno = 111;
+strcpy(e.ename,"Raj");
+e.salary = 5000.0;
+
+struct employee *p = &e;
+
+-> (Arrow operator)
+--------------------
+This operator is used to access the structure members using pointer variable
+
+eg:
+p-> eno = 111;
+strcpy(p->ename,"Raj");
+p->salary = 5000.0;
+
+	Refer program ptr5.c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

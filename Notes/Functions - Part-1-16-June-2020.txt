@@ -1,0 +1,125 @@
+Date:16/June/2020
+-----------------
+Functions
+---------
+A function is a set of statements used to do a specific task
+
+eg:
+output
+------
+---------------------- 40
+   Welcome
+---------------------- 40
+
+main()
+{
+   int i;
+   for(i=1;i<=40;i++)
+     printf("-");
+   printf("\n Welcome \n");
+   for(i=1;i<=40;i++)
+     printf("-");
+}
+
+--------------------------------
+main()
+{
+   printline();
+   printf("\n Welcome \n");
+   printline();
+}
+printline() //user defined function
+{
+   int i;
+   for(i=1;i<=40;i++)
+     printf("-");
+}
+
+Functions are used for reusability
+
+Another example
+----------------
+
+output
+------
+--------------------- 40
+Welcome
+----------------------------- 60
+Hello
+------------- 20
+
+main()
+{
+   printline(40);
+   printf("\n Welcome \n");
+   printline(60);
+   printf("\n Hello \n");
+   printline(20);
+}
+printline(int n) //n is argument or parameter
+{
+   int i;
+   for(i=1;i<=n;i++)
+     printf("-");
+}
+
+Categories of Functions
+-----------------------
+- Functions without arguments and no return value
+- Functions with arguments and no return value
+- Functions with arguments and return value
+
+
+WAP to find area of rectangle using functions
+	Refer program RectFun.c
+
+
+WAP to find the factorial of a given number using functions
+	Refer program FactFun.c
+
+WAP to display multiplication table of a given number using functions
+	Refer program MTableFun.c
+
+
+WAP to check whether the given number is Prime or not
+	Refer program PrimeFun.c
+
+Assignment - Functions
+----------------------
+1. WAP to find the sum of digits using functions
+2. WAP to check whether the given number is palindrome or not using functions
+
+
+WAP to find biggest, second biggest, smallest, second smallest in the given array
+	Refer program BigSmall.c
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

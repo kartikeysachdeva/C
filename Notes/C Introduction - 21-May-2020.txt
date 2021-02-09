@@ -1,0 +1,79 @@
+Date:21/May/2020
+----------------
+C Introduction
+--------------
+Computer Fundamentals
+---------------------
+Computer
+--------
+A computer is an eletronic device which takes input, process the given input and provides
+output to the user
+
+     Input  ->     Process         -> Output
+
+     n1 = 10    sum = n1 + n2       print sum (30)
+     n2 = 20
+
+Program
+-------
+A program is a set of instructions given to a computer to perform a task
+
+Software
+--------
+A software is a collection of related programs
+
+Types of Software
+-----------------
+	REfer diagram Types of Software.png
+
+Language
+--------
+Language is media for communication
+
+Types of Languages
+------------------
+	Refer diagram Types of Languages.png
+
+- Low Level Languages are used to develop system softwares
+- High Level Languages are used to develop application softwares
+
+Need of C Language
+-------------------
+
+	Refer diagram Need of C language.png
+
+- C is also known as middle level language as it is used to develop system softwares and
+  application softwares
+
+
+Compiler
+--------
+It is used to convert source code into object code at a time
+
+
+Interpreter
+-----------
+It is used to convert source code into object code line by line
+
+	REfer diagram Compiler vs Interpreter.png
+
+Note: C is a compiler based programming language
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

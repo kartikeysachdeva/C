@@ -1,0 +1,87 @@
+Date:25/June/2020
+-----------------
+Files
+-----
+Files are used to store data permanently in the form of data files stored
+on hard disk
+
+Operations on Files
+-------------------
+- Creating a File
+- Opening the file
+- Writing data onto the file
+- Reading data from the file
+- Closing the file
+
+Creating a File
+---------------
+FILE *fp;
+
+Open a File
+-----------
+fp = fopen("filename","mode");
+
+mode
+----
+w => write
+r => read
+
+eg:
+fp = fopen("xyz.txt","w");//creates a file xyz.txt and opens the file in write mode
+fp = fopen("xyz.txt","r");//opens the existing file xyz.txt in read mode
+
+Writing data onto the file
+--------------------------
+putc()
+-----
+putc() is used to write a char onto the file
+
+eg:
+	char c = 'p';
+	putc(c,fp);
+
+Reading data from the file
+--------------------------
+getc()
+-----
+getc() is used to read a char from the file
+
+eg:
+	char c;
+	c = getc(fp);
+
+
+
+Closing the file
+----------------
+fclose(fp);
+
+WAP to write a line of text onto the data file
+
+	Refer program file1.c
+
+WAP to read the context from the data file
+	Refer program file2.c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

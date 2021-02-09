@@ -1,0 +1,97 @@
+Date:02/June/2020
+-----------------
+switch statement
+----------------
+- It is used to choose an option among the given set of options
+- It is mainly used for menu driven applications
+
+syntax
+------
+switch (expression)
+{
+   case opt1: statements;break;
+   case opt2: statements;break;
+   case opt3: statements;break;
+   ...
+   case optn: statements;break;
+   default: statements;
+}
+
+Points on switch statement
+--------------------------
+- If expression is not matching with any one of the options then it will execute the statements
+  present in default
+- default is optional
+- default can be anywhere in between the options
+- break is used to come out of switch
+- if break is not used then it will execute the statements of other options until break
+
+WAP to accept a day number and display in words
+
+	Day No => 1 => Sunday
+	Day No => 2 => Monday
+	Day No => 7 => Saturday
+	Day No => 9 => Invalid Day No
+
+
+	Refer program DayWords.c
+
+WAP to accept two numbers and display the following options/menu
+
+	1.Add
+	2.Subtract
+	3.Multiply
+	4.Divide
+
+	Display result based on the user choice
+
+	eg:
+		n1 = 10, n2 = 5, ch = 1 => Result = 15
+		n1 = 10, n2 = 5, ch = 3 => Result = 50
+		n1 = 10, n2 = 5, ch = 8 => Invalid Choice
+
+	Refer program Calculator.c
+
+Assignment - 3
+---------------
+1. WAP to check whether the given char is vowel or consonant
+
+	eg:
+		Enter a char : a
+		Vowel
+
+	eg:
+		Enter a char : p
+		Consonant
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

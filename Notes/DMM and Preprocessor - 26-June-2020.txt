@@ -1,0 +1,67 @@
+Date:26/June/2020
+-----------------
+Dynamic Memory Management (DMM)
+-------------------------------
+DMM is done using the following functions
+
+- malloc() => used to allocate a block of memory
+- realloc() => used to modify the allocated memory
+- calloc() => used to allocate multiple blocks of memory
+- free() => used to delete the allocated memory
+
+	REfer diagram DMM.png
+
+	Refer program DMM.c
+
+Preprocessors
+-------------
+Preprocessor is compiled before the actual compiler compiles the source code
+
+Types
+-----
+- Macros		=> #define
+- File Inclusion	=> #include
+
+
+Macros
+------
+#define PI 3.14
+
+eg:
+#define cube(x) x*x*x //macro
+main()
+{
+   printf("cube(3) = %d",cube(3));//cube(3) will get replaced 3*3*3 before compilation
+}
+cube(int x)
+{
+  return x*x*x;
+}
+Macros vs Functions
+-------------------
+- In case of Macros the code gets replaced before compilation where as in case of
+  functions, the function is called during program execution
+
+
+File inclusion
+--------------
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+Creating user defined header files
+----------------------------------
+	Refer programs
+		- mylib.h (create only functions without main() )
+		- fileinclusion.c (run)
+
+
+
+
+
+
+
+
+
+
+

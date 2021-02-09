@@ -1,0 +1,186 @@
+Date:28/May/2020
+----------------
+Operators
+---------
+- Arithmetic Operators => +, -, *, /, % (modulus-remainder)
+
+	+ => addition
+	- => subtraction
+	* => multiplication
+	/ => division
+	% => Modulus (remainder)
+
+	eg:
+		5 / 2 = 2 (Quotient)
+		5 % 2 = 1 (Remainder)
+
+		2)5(2 (Quotient)
+		  4
+		  --
+		  1 (Remainder)
+		  --
+
+	eg:
+		5.0 / 2 = 2.5
+		5 / 2.0 = 2.5
+		5.0 / 2.0 = 2.5
+
+- Relational Operators => >, <, >=, <=, ==, != (not equal)
+	- used to form the conditions (comparisions)
+
+	eg:
+		int age = 10;
+
+		(age <= 20) //condition
+	
+	- A condition can be either true or false but not both
+
+	eg:
+		(age == 10) //checks for equality
+
+		(condition) => true => returns a value > 0
+			    => false => returns a value <= 0
+
+	Generally,
+		true is represented by 1
+		false is represented by 0
+
+- Logical Operators => && (AND), || (OR), ! (NOT)
+	- used to join the conditions
+
+	eg:
+		((m1 >= 40) && (m2 >= 40) && (m3 >= 40))
+			res = "pass";
+
+	eg:
+		((m1 < 40) || (m2 < 40) || (m3 < 40))
+			res = "fail";
+
+	- In case of && all conditions should be true
+	- In case of || any one condition can be true
+
+- Assignment Operators => =, +=, -=, *=, /=, %=
+	- shortcut/shorthand operators
+
+	eg:
+		int x = 5;
+		
+		x = x + 5;//x = 5 + 5 = 10
+
+		Using shorthand,
+			x += 5;
+
+	eg:
+		int y = 10;
+		
+		y = y * 20;//y = 10 * 20 = 200
+
+		Using shorthand,
+			y *= 20;
+
+- Conditional Operator => ? (terinary operator)
+
+	syntax
+	------
+		(condition) ? expression1 : expression2;
+
+	It is used to check a condition and if the condition is true it will
+	execute expression1 else if the condition is false it will execute 
+	expression2
+
+	eg:
+		int n1 = 10;
+		int n2 = 5;
+
+		big = (n1 > n2) ? n1 : n2;
+		printf("Big = %d",big);
+
+		output
+		------
+		Big = 10
+
+	eg:
+		int n1 = 10;
+		int n2 = 15;
+
+		big = (n1 > n2) ? n1 : n2;
+		printf("Big = %d",big);
+
+		output
+		------
+		Big = 15
+
+	eg:
+		int n1 = 10;
+		int n2 = 5;
+
+		res = (n1 > n2) ? (n1+n2) : (n2-n1);
+		printf("Result = %d",res);
+
+		output
+		------
+		Result = 15
+	
+	eg:
+		int n1 = 10;
+		int n2 = 15;
+
+		res = (n1 > n2) ? (n1+n2) : (n2-n1);
+		printf("Result = %d",res);
+
+		output
+		------
+		Result = 5
+
+- Increment and Decrement Operators => ++, --
+
+	Increment => ++ => value of variable is incremented by 1
+	Decrement => -- => value of variable is decremented by 1
+
+	eg:
+		int x = 5;
+		x++;
+		printf("x = %d",x);
+		
+		output
+		------
+		x = 6
+
+	eg:
+		int x = 5;
+		x--;
+		printf("X = %d",x);
+
+		output
+		------
+		x = 4
+
+	Types
+	-----
+	- Pre
+	- Post
+
+	Refer diagram Pre vs Post.png
+
+- sizeof operator
+	used to give the size of given data type/variable
+
+	eg:
+		int n = 10;
+		printf("Size = %d",sizeof(n));//Size = 4 (64-bit), Size = 2 (32-bit)
+
+	eg:
+		printf("Size = %d",sizeof(float));//Size = 4 (64-bit/32-bit)
+
+
+
+
+
+
+
+
+
+
+
+
+
